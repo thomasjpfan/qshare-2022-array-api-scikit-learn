@@ -54,7 +54,7 @@ lda_cu.fit(X_cu, y_cu)
 
 class: chapter-slide
 
-# Constraints 🔓
+# 7 Constraints 🔓
 
 ---
 
@@ -163,10 +163,10 @@ def _asarray_with_order(array, dtype=None, order=None, copy=None, xp=None):
      if xp is None:
         xp, _ = get_namespace(array)
 
-    if xp.__name__ in {"numpy", "numpy.array_api"}:
-        # Use NumPy API to support order
-        array = numpy.asarray(array, order=order, dtype=dtype)
-        return xp.asarray(array, copy=copy)
+*    if xp.__name__ in {"numpy", "numpy.array_api"}:
+*        # Use NumPy API to support order
+*        array = numpy.asarray(array, order=order, dtype=dtype)
+*        return xp.asarray(array, copy=copy)
     else:
         return xp.asarray(array, dtype=dtype, copy=copy)
 ```
@@ -284,7 +284,7 @@ class: chapter-slide
 ```python
 from sklearn.utils._array_api import _convert_estimator_to_ndarray
 
-lda_np = _convert_estimator_to_ndarray(lda)
+*lda_np = _convert_estimator_to_ndarray(lda)
 X_trans = lda_np.transform(X_np)
 ```
 
@@ -307,6 +307,11 @@ class: chapter-slide
 
 ---
 
+class: chapter-slide
+
+# Maintainer Bandwidth 🕰
+
+---
 
 ![](images/blog_post.jpg)
 
