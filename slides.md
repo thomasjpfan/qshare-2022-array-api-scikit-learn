@@ -2,12 +2,12 @@ title: Adopting Array API in Scikit-learn
 use_katex: False
 class: title-slide
 
-# Adopting Array API in Scikit-learn 💾
+# Adopting Array API in Scikit-learn
+
+![](images/intro.drawio.svg)
 
 .larger[Thomas J. Fan]<br>
 @thomasjpfan<br>
-<a href="https://www.github.com/thomasjpfan" target="_blank"><span class="icon icon-github icon-left"></span></a>
-<a href="https://www.twitter.com/thomasjpfan" target="_blank"><span class="icon icon-twitter"></span></a>
 <a class="this-talk-link", href="https://github.com/thomasjpfan/qshare-2022-array-api-scikit-learn" target="_blank">
 This talk on Github: thomasjpfan/qshare-2022-array-api-scikit-learn</a>
 
