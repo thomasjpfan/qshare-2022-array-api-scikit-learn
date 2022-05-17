@@ -41,6 +41,17 @@ lda_cu.fit(X_cu, y_cu)
 
 ---
 
+# Selling Point 🍭
+
+```python
+def somefunc(x, y):
+    xp = get_namespace(x, y)
+    out = xp.mean(x, axis=0) + 2*xp.std(y, axis=0)
+    return out
+```
+
+---
+
 class: chapter-slide
 
 # 7 Constraints 🔓
